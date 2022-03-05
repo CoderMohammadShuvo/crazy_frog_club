@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/Web/logo.png"
+      type="image/x-icon"
+    />
+    <title>Crazy Frogz Club</title>
+  </head>
+  <body>
+    <div class="home">
+      <!-- NAVBAR -->
+      <nav class="navigation" id="navigation">
+        <div class="navigationContent">
+          <img
+            class="navLogo"
+            id="navLogo"
+            src="./assets/Web/logo.svg"
+            alt=""
+          />
+          <div class="nav-options" id="navOption">
+            <a href="">NFT Collection</a>
+            <a href="">About Us</a>
+            <a href="">Roadmap</a>
+            <a href="">FAQ</a>
+          </div>
+          <button class="navButton" id="navButton">Connect Wallet</button>
+          <img id="crossButton" src="./assets/Mobile/cross button.svg" alt="" />
+          <img id="barButton" src="./assets/Mobile/Side menu.svg" alt="" />
+        </div>
+      </nav>
+
+      <!-- HERO_SECTION -->
+      <div class="heroSection">
+        <div class="heroSocial">
+          <img src="./assets/Web/Facebook.svg" alt="" />
+          <img src="./assets/Web/Twitter.svg" alt="" />
+          <img src="./assets/Web/Instagram.svg" alt="" />
+          <img src="./assets/Web/Discord.svg" alt="" />
+        </div>
+        <div class="heroFrog">
+          <img class="heroFrogLeft" src="./assets/Web/f3-01 5.png" alt="" />
+          <img class="heroFrogMiddle" src="./assets/Web/f2-01 5.png" alt="" />
+          <img class="heroFrogRight" src="./assets/Web/f1-01 5.png" alt="" />
+        </div>
+      </div>
+
+      <!-- MINTING AREA -->
+      <div class="minting">
+        <h1 class="minting-title">Mint Crazy Frog Club</h1>
+        <h3 class="totalMinted">
+          Total Minted: <span id="totalSupply">198</span>/2000
+        </h3>
+        <div class="mintingArea">
+          <h3 class="mintingAreaSuggetion">
+            Connect Your wallet to start minting now
+          </h3>
+          <div class="mintingDetails">
+            <img
+              class="substrac"
+              id="minus"
+              src="./assets/Web/Subtract.svg"
+              alt=""
+            />
+            <input type="number" class="inputNumber" id="input" />
+            <img class="substrac" id="plus" src="./assets/Web/Add.svg" alt="" />
+            <h3 class="mintAmount" id="mint5">5</h3>
+            <h3 class="mintAmount" id="mint10">10</h3>
+            <h3 class="mintAmount" id="mint20">20</h3>
+          </div>
+        </div>
+        <button class="mintButton" id="mint">Mint</button>
+      </div>
+
+      <!-- COLLECTION -->
+      <div class="collection">
+        <h1 class="collectionTitle">Our NFT Collection</h1>
+        <p class="collectionDetails">
+          The Crazy Frogz Club is a collection of 2000 unique Crazy Frogz NFT (
+          Unique digital <br />
+          collectibles on the Ethereum Blockchain)
+        </p>
+        <div class="collectionImage">
+          <div class="slideTrac">
+            <div class="slide">
+              <img id="collection1" src="./assets/Web/a-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection2" src="./assets/Web/b-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection3" src="./assets/Web/c-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection4" src="./assets/Web/d-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection5" src="./assets/Web/e-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection6" src="./assets/Web/f1-01 4.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection7" src="./assets/Web/g-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection8" src="./assets/Web/h-01.png" alt="" />
+            </div>
+
+            <div class="slide">
+              <img id="collection1" src="./assets/Web/a-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection2" src="./assets/Web/b-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection3" src="./assets/Web/c-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection4" src="./assets/Web/d-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection5" src="./assets/Web/e-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection6" src="./assets/Web/f1-01 4.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection7" src="./assets/Web/g-01.png" alt="" />
+            </div>
+            <div class="slide">
+              <img id="collection8" src="./assets/Web/h-01.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+      <div class="about">
+        <h1>About Us</h1>
+        <div class="aboutDetails">
+          <p>
+            Did you ever have a close look at a pond to see what is happening ?
+            Do you know what happens in swamps when no one is looking ? Even
+            scientists have no idea...and nobody will tell them !This is where
+            the Crazy Frogz live and strive. This is our Realm. Dare to join us
+            in the Crazy Frogz Club ?
+          </p>
+        </div>
+        <button class="openSea">Opensea</button>
+      </div>
+      <div class="openseaBanner">
+        <img src="./assets/Web/h-01.svg" alt="" />
+      </div>
+
+      <div class="roadmap">
+        <h1>Our Roadmap</h1>
+        <div class="roadmapLine1">
+          <img id="roadmap1" src="./assets/Web/Phase 1.svg" alt="" />
+          <img id="roadmap2" src="./assets/Web/Phase 2.svg" alt="" />
+          <img id="roadmap3" src="./assets/Web/Phase 3.svg" alt="" />
+        </div>
+        <img id="roadmap4" src="./assets/Web/Phase 4.svg" alt="" />
+      </div>
+
+      <div class="roadmapBanner">
+        <img src="./assets/Web/e-01.svg" alt="" />
+      </div>
+
+      <!-- FAQ -->
+      <div class="faq">
+        <h1>
+          Frequently Asked <br />
+          Questions
+        </h1>
+        <p>What is the Crazy Frogz Club?</p>
+        <h6>
+          .The Crazy Frogz Club is a collection of 2500 unique Crazy Frogz
+          (Unique digital collectibles in the Ethereum Blockchain). Each Frog is
+          unique and has a set of customized properties. (Appearance, clothes,
+          colors...). Each frog <br />
+          has its unique set of properties and unlock great benefits for the
+          holder.
+        </h6>
+
+        <p>Where is my Frogz after minting?</p>
+        <h6>It will be directly in your Ethereum Wallet.</h6>
+
+        <p>Is there a Whitelist?</p>
+        <h6>
+          No, minting is open to anybody and there is no Whitelist process
+        </h6>
+
+        <p>What is the price ?</p>
+        <h6>
+          Every Crazy Frogz is mintable at the price of 0.08 ETH. No price
+          tiers.
+        </h6>
+
+        <p>Where do I learn more from the Crazy Frogz Club ?</p>
+        <h6>Go to our Twitter or Discord for more information.</h6>
+
+        <p>How many Frogz can I mint ?</p>
+        <h6>Every person can mint up to 5 frogz per Wallet.</h6>
+      </div>
+
+      <!-- SMART CONTRACT ADDRESS -->
+      <div class="copyAddress">
+        <div class="addressArea">
+          <p>Techrate Verified & Audited Smart contract</p>
+          <div class="address">
+            <p>1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</p>
+          </div>
+        </div>
+        <button class="copyButton">Copy</button>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <div class="footerDetails">
+          <h1>CFC</h1>
+          <div class="footerOption">
+            <a href="">NFT Collection</a>
+            <a href="">About Us</a>
+            <a href="">Roadmap</a>
+            <a href="">FAQ</a>
+          </div>
+          <div class="navSocial">
+            <img src="./assets/Web/Facebook.svg" alt="" />
+            <img src="./assets/Web/Twitter.svg" alt="" />
+            <img src="./assets/Web/Instagram.svg" alt="" />
+            <img src="./assets/Web/Discord.svg" alt="" />
+          </div>
+        </div>
+        <div class="copyRight">
+          <p>©2022 Crazy Frog Club. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var totalSupply = document.getElementById("totalSupply");
+      var barButton = document.getElementById("barButton");
+      var crossButon = document.getElementById("crossButton");
+      const minusButton = document.getElementById("minus");
+      const plusButton = document.getElementById("plus");
+      const inputField = document.getElementById("input");
+      const mint5 = document.getElementById("mint5");
+      const mint10 = document.getElementById("mint10");
+      const mint20 = document.getElementById("mint20");
+
+      minusButton.addEventListener("click", (event) => {
+        event.preventDefault();
+        const currentValue = Number(inputField.value) || 0;
+        inputField.value = currentValue - 1;
+      });
+
+      plusButton.addEventListener("click", (event) => {
+        event.preventDefault();
+        const currentValue = Number(inputField.value) || 0;
+        inputField.value = currentValue + 1;
+      });
+
+      mint5.addEventListener("click", () => {
+        inputField.value = 5;
+      });
+      mint10.addEventListener("click", () => {
+        inputField.value = 10;
+      });
+      mint20.addEventListener("click", () => {
+        inputField.value = 20;
+      });
+      barButton.addEventListener("click", navActive);
+      crossButon.addEventListener("click", navOff);
+
+      function navOff() {
+        document.getElementById("navigation").style.background = "none";
+        document.getElementById("navigation").style.height = "150px";
+        document.getElementById("navOption").style.display = "none";
+        document.getElementById("barButton").style.display = "block";
+        document.getElementById("crossButton").style.display = "none";
+        document.getElementById("navButton").style.display = "none";
+        document.getElementById("navLogo").style.display = "block";
+      }
+
+      function navActive() {
+        document.getElementById("navigation").style.background =
+          "url('./assets/Mobile/Group 20.png')";
+        document.getElementById("navigation").style.height = "100vh";
+        document.getElementById("navigation").style.backgroundSize = "cover";
+        document.getElementById("navOption").style.display = "block";
+        document.getElementById("navOption").style.display = "flex";
+        document.getElementById("navOption").style.flexDirection = "column";
+        document.getElementById("barButton").style.display = "none";
+        document.getElementById("crossButton").style.display = "block";
+        document.getElementById("navButton").style.display = "block";
+        document.getElementById("navLogo").style.display = "none";
+      }
+      var account = null;
+      var contract = null;
+      var ABI = [
+        {
+          inputs: [
+            {
+              internalType: "string",
+              name: "_name",
+              type: "string",
+            },
+            {
+              internalType: "string",
+              name: "_symbol",
+              type: "string",
+            },
+            {
+              internalType: "string",
+              name: "_initBaseURI",
+              type: "string",
+            },
+          ],
+          stateMutability: "nonpayable",
+          type: "constructor",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "owner",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "address",
+              name: "approved",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "Approval",
+          type: "event",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "owner",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "address",
+              name: "operator",
+              type: "address",
+            },
+            {
+              indexed: false,
+              internalType: "bool",
+              name: "approved",
+              type: "bool",
+            },
+          ],
+          name: "ApprovalForAll",
+          type: "event",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "to",
+              type: "address",
+            },
+            {
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "approve",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "_to",
+              type: "address",
+            },
+            {
+              internalType: "uint256",
+              name: "_mintAmount",
+              type: "uint256",
+            },
+          ],
+          name: "mint",
+          outputs: [],
+          stateMutability: "payable",
+          type: "function",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "previousOwner",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "address",
+              name: "newOwner",
+              type: "address",
+            },
+          ],
+          name: "OwnershipTransferred",
+          type: "event",
+        },
+        {
+          inputs: [
+            {
+              internalType: "bool",
+              name: "_state",
+              type: "bool",
+            },
+          ],
+          name: "pause",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "renounceOwnership",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "from",
+              type: "address",
+            },
+            {
+              internalType: "address",
+              name: "to",
+              type: "address",
+            },
+            {
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "safeTransferFrom",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "from",
+              type: "address",
+            },
+            {
+              internalType: "address",
+              name: "to",
+              type: "address",
+            },
+            {
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+            {
+              internalType: "bytes",
+              name: "_data",
+              type: "bytes",
+            },
+          ],
+          name: "safeTransferFrom",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "operator",
+              type: "address",
+            },
+            {
+              internalType: "bool",
+              name: "approved",
+              type: "bool",
+            },
+          ],
+          name: "setApprovalForAll",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "string",
+              name: "_newBaseExtension",
+              type: "string",
+            },
+          ],
+          name: "setBaseExtension",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "string",
+              name: "_newBaseURI",
+              type: "string",
+            },
+          ],
+          name: "setBaseURI",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "uint256",
+              name: "_newCost",
+              type: "uint256",
+            },
+          ],
+          name: "setCost",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "uint256",
+              name: "_newmaxMintAmount",
+              type: "uint256",
+            },
+          ],
+          name: "setmaxMintAmount",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          anonymous: false,
+          inputs: [
+            {
+              indexed: true,
+              internalType: "address",
+              name: "from",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "address",
+              name: "to",
+              type: "address",
+            },
+            {
+              indexed: true,
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "Transfer",
+          type: "event",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "from",
+              type: "address",
+            },
+            {
+              internalType: "address",
+              name: "to",
+              type: "address",
+            },
+            {
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "transferFrom",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "newOwner",
+              type: "address",
+            },
+          ],
+          name: "transferOwnership",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "withdraw",
+          outputs: [],
+          stateMutability: "payable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "owner",
+              type: "address",
+            },
+          ],
+          name: "balanceOf",
+          outputs: [
+            {
+              internalType: "uint256",
+              name: "",
+              type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "baseExtension",
+          outputs: [
+            {
+              internalType: "string",
+              name: "",
+              type: "string",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "baseURI",
+          outputs: [
+            {
+              internalType: "string",
+              name: "",
+              type: "string",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "cost",
+          outputs: [
+            {
+              internalType: "uint256",
+              name: "",
+              type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "getApproved",
+          outputs: [
+            {
+              internalType: "address",
+              name: "",
+              type: "address",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "owner",
+              type: "address",
+            },
+            {
+              internalType: "address",
+              name: "operator",
+              type: "address",
+            },
+          ],
+          name: "isApprovedForAll",
+          outputs: [
+            {
+              internalType: "bool",
+              name: "",
+              type: "bool",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "maxMintAmount",
+          outputs: [
+            {
+              internalType: "uint256",
+              name: "",
+              type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "maxSupply",
+          outputs: [
+            {
+              internalType: "uint256",
+              name: "",
+              type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "name",
+          outputs: [
+            {
+              internalType: "string",
+              name: "",
+              type: "string",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "owner",
+          outputs: [
+            {
+              internalType: "address",
+              name: "",
+              type: "address",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "ownerOf",
+          outputs: [
+            {
+              internalType: "address",
+              name: "",
+              type: "address",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "paused",
+          outputs: [
+            {
+              internalType: "bool",
+              name: "",
+              type: "bool",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "bytes4",
+              name: "interfaceId",
+              type: "bytes4",
+            },
+          ],
+          name: "supportsInterface",
+          outputs: [
+            {
+              internalType: "bool",
+              name: "",
+              type: "bool",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "symbol",
+          outputs: [
+            {
+              internalType: "string",
+              name: "",
+              type: "string",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "uint256",
+              name: "index",
+              type: "uint256",
+            },
+          ],
+          name: "tokenByIndex",
+          outputs: [
+            {
+              internalType: "uint256",
+              name: "",
+              type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "owner",
+              type: "address",
+            },
+            {
+              internalType: "uint256",
+              name: "index",
+              type: "uint256",
+            },
+          ],
+          name: "tokenOfOwnerByIndex",
+          outputs: [
+            {
+              internalType: "uint256",
+              name: "",
+              type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "uint256",
+              name: "tokenId",
+              type: "uint256",
+            },
+          ],
+          name: "tokenURI",
+          outputs: [
+            {
+              internalType: "string",
+              name: "",
+              type: "string",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "totalSupply",
+          outputs: [
+            {
+              internalType: "uint256",
+              name: "",
+              type: "uint256",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "address",
+              name: "_owner",
+              type: "address",
+            },
+          ],
+          name: "walletOfOwner",
+          outputs: [
+            {
+              internalType: "uint256[]",
+              name: "",
+              type: "uint256[]",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+      ];
+      const ADDRESS = "0x4561395BF6DdF81765fCdD68665e799335016948";
+      (async () => {
+        if (window.ethereum) {
+          await window.ethereum.send("eth_requestAccounts");
+          window.web3 = new Web3(window.ethereum);
+
+          var accounts = await web3.eth.getAccounts();
+          account = accounts[0];
+          // account = address;
+          contract = new web3.eth.Contract(ABI, ADDRESS);
+          //   updateCurrentCount();
+          //   document.getElementById("increase-count").onclick = () => {
+          //     increaseCurrentCount();
+          //   };
+          var supply2 = await contract.methods.totalSupply().call();
+          totalSupply.innerText = supply2;
+        }
+      })();
+
+      var mintButton = document.getElementById("mint");
+      mintButton.addEventListener("click", () => {
+        contract.methods
+          .mint(account, inputField.value)
+          .send({ from: account, value: inputField.value * 80000000000000000 });
+      });
+
+      //   const deploy = async (abi, bytecode) => {
+      //     var deployingContract = new web3.eth.Contract(abi).deploy({
+      //       data: bytecode,
+      //       arguments: [],
+      //     });
+      //     var estimateGas = await deployingContract.estimateGas();
+
+      //     var deployedContract = await deploying.send({
+      //       from: account,
+      //       gas: estimateGas,
+      //     });
+
+      //     console.log("Address of Contract-" + deployedContract.options.address);
+      //     return deployedContract.options.address;
+      //   };
+
+      //   const updateCurrentCount = async () => {
+      //     if (contract) {
+      //       var count = await contract.methods.count().call();
+      //       document.getElementById("current-count").textContent = count;
+      //     }
+      //   };
+
+      //   const increaseCurrentCount = async () => {
+      //     if (contract) {
+      //       var transaction = await contract.methods
+      //         .increment()
+      //         .send({ from: account, to: account });
+      //       window.location.reload();
+      //     }
+      //   };
+    </script>
+  </body>
+</html>
