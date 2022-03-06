@@ -962,12 +962,9 @@
           account = accounts[0];
           // account = address;
           contract = new web3.eth.Contract(ABI, ADDRESS);
-          //   updateCurrentCount();
-          //   document.getElementById("increase-count").onclick = () => {
-          //     increaseCurrentCount();
-          //   };
-          var supply2 = await contract.methods.totalSupply().call();
-          totalSupply.innerText = supply2;
+          const supply2 = await contract.methods.totalSupply().call();
+          document.getElementById("totalSupply").innerText = supply2;
+          // updateCurrentCount();
         }
       })();
 
